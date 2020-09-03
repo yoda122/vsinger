@@ -63,7 +63,7 @@ public class OVRLipSyncContextMorphTarget : MonoBehaviour
     public KeyCode laughterKey = KeyCode.CapsLock;
 
     [Tooltip("Blendshape index to trigger for laughter")]
-    public int laughterBlendTarget = OVRLipSync.VisemeCount;
+    public int laughterBlendTarget = 11;//OVRLipSync.VisemeCount;
 
     [Range(0.0f, 1.0f)]
     [Tooltip("Laughter probability threshold above which the laughter blendshape will be activated")]
